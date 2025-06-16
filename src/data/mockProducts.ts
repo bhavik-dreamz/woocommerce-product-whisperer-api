@@ -1,0 +1,125 @@
+
+import { Product } from '../types/product';
+
+export const mockProducts: Product[] = [
+  {
+    id: 1,
+    name: "Wireless Bluetooth Headphones",
+    description: "Premium noise-canceling headphones with 30-hour battery life and crystal clear audio quality.",
+    price: 199.99,
+    originalPrice: 249.99,
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop&crop=center",
+    category: "electronics",
+    rating: 4,
+    reviews: 1234,
+    onSale: true,
+    isNew: false,
+    tags: ["wireless", "audio", "music"]
+  },
+  {
+    id: 2,
+    name: "Smart Fitness Watch",
+    description: "Advanced fitness tracking with heart rate monitoring, GPS, and smartphone connectivity.",
+    price: 299.99,
+    image: "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=400&h=300&fit=crop&crop=center",
+    category: "electronics",
+    rating: 5,
+    reviews: 892,
+    onSale: false,
+    isNew: true,
+    tags: ["fitness", "health", "smart"]
+  },
+  {
+    id: 3,
+    name: "Organic Cotton T-Shirt",
+    description: "Comfortable, eco-friendly t-shirt made from 100% organic cotton with a modern fit.",
+    price: 29.99,
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=300&fit=crop&crop=center",
+    category: "clothing",
+    rating: 4,
+    reviews: 456,
+    onSale: false,
+    isNew: false,
+    tags: ["organic", "cotton", "casual"]
+  },
+  {
+    id: 4,
+    name: "Professional Camera Lens",
+    description: "High-quality 50mm prime lens with image stabilization perfect for portrait photography.",
+    price: 849.99,
+    originalPrice: 999.99,
+    image: "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=400&h=300&fit=crop&crop=center",
+    category: "electronics",
+    rating: 5,
+    reviews: 234,
+    onSale: true,
+    isNew: false,
+    tags: ["photography", "lens", "professional"]
+  },
+  {
+    id: 5,
+    name: "Ergonomic Office Chair",
+    description: "Comfortable office chair with lumbar support and adjustable height for long work sessions.",
+    price: 399.99,
+    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop&crop=center",
+    category: "furniture",
+    rating: 4,
+    reviews: 678,
+    onSale: false,
+    isNew: true,
+    tags: ["office", "ergonomic", "comfort"]
+  },
+  {
+    id: 6,
+    name: "Stainless Steel Water Bottle",
+    description: "Insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours.",
+    price: 34.99,
+    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=300&fit=crop&crop=center",
+    category: "accessories",
+    rating: 5,
+    reviews: 1567,
+    onSale: false,
+    isNew: false,
+    tags: ["hydration", "steel", "insulated"]
+  },
+  {
+    id: 7,
+    name: "Gaming Mechanical Keyboard",
+    description: "RGB backlit mechanical keyboard with customizable keys and ultra-responsive switches.",
+    price: 159.99,
+    originalPrice: 199.99,
+    image: "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=400&h=300&fit=crop&crop=center",
+    category: "electronics",
+    rating: 5,
+    reviews: 934,
+    onSale: true,
+    isNew: false,
+    tags: ["gaming", "mechanical", "rgb"]
+  },
+  {
+    id: 8,
+    name: "Designer Sunglasses",
+    description: "Stylish polarized sunglasses with UV protection and durable titanium frame.",
+    price: 189.99,
+    image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=300&fit=crop&crop=center",
+    category: "accessories",
+    rating: 4,
+    reviews: 345,
+    onSale: false,
+    isNew: true,
+    tags: ["sunglasses", "designer", "polarized"]
+  },
+  {
+    id: 9,
+    name: "Leather Laptop Bag",
+    description: "Premium leather laptop bag with multiple compartments and comfortable shoulder strap.",
+    price: 129.99,
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop&crop=center",
+    category: "accessories",
+    rating: 4,
+    reviews: 567,
+    onSale: false,
+    isNew: false,
+    tags: ["leather", "laptop", "professional"]
+  }
+];
